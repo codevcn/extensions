@@ -36,6 +36,6 @@ This server was developed using:
 - Monitor the user count for active participants
 
 ## Personal Notes
-- Zip file used to compress all files and folders of the server
+- Zip file contains all files and folders of the server (all src of the server compressed in the zip file)
 - Turn off the firewall if clients cannot access the server via IPv4
 - All messages of the chatting feature will disapear when the server is turned off
