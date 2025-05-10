@@ -34,3 +34,6 @@ This server was developed using:
 - Keep the chat box at a comfortable height
 - Use the file sharing feature for quick file distribution
 - Monitor the user count for active participants
+
+## Personal Notes
+- Zip file used to compress all files and folders of the server
