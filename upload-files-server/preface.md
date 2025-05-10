@@ -37,3 +37,4 @@ This server was developed using:
 
 ## Personal Notes
 - Zip file used to compress all files and folders of the server
+- Turn off the firewall if clients cannot access the server via IPv4
