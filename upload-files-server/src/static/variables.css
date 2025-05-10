@@ -1,0 +1,15 @@
+:root {
+  /* app palette */
+  --chatting-msg-cl: #e5e5e5;
+  --chatting-msg-self-cl: #c6e2ff;
+  --chatting-msgs-list-cl: #f2f2f2;
+  --chatting-max-width-msg: 80%;
+  --files-server-white-cl: #fafafa;
+  --files-server-black-cl: #0f0f0f;
+  --files-server-darkgray-cl: #212121;
+  --files-server-blue-cl: #00bcd4;
+  --files-server-gray-cl: #444;
+  --files-server-lightgray-cl: #555;
+  --files-server-red-cl: #f44336;
+  --files-server-green-cl: #4caf50;
+}

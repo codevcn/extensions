@@ -1,0 +1,58 @@
+@import "../../variables.css";
+@import "../../globals.css";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--files-server-black-cl);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.error-container {
+  max-width: 600px;
+  padding: 40px;
+  background-color: var(--files-server-darkgray-cl);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error-code {
+  font-size: 120px;
+  font-weight: bold;
+  color: var(--files-server-blue-cl);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.error-title {
+  font-size: 32px;
+  color: var(--files-server-white-cl);
+  margin-bottom: 16px;
+}
+
+.error-message {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 32px;
+  line-height: 1.3;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--files-server-blue-cl);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0097a7;
+}
