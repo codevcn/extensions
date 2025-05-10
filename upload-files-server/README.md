@@ -109,3 +109,58 @@ The server can be configured by modifying the following files:
 ## Security
 
 - Secure filename handling
+
+## Detailed Usage Instructions At Frontend Side
+
+### 1. File Upload System
+
+#### Uploading Files
+
+- Navigate to the home page
+- Click the "Choose files" button or drag and drop files into the upload area
+- Selected files will appear in the "Picked Files" list
+- Click "Upload" to start the upload process
+- Monitor upload progress in real-time through the progress bar
+- Files are automatically stored in the configured storage folder
+
+#### Downloading Files
+
+- View the list of available files in the "Available Files" section
+- Click on any file name to download it
+- Files are served with proper MIME types for correct handling
+
+### 2. Real-time Progress Tracking
+
+- Upload progress is shown in real-time using a progress bar
+- Progress percentage is displayed numerically
+- Progress updates are sent via WebSocket for smooth updates
+- Progress tracking works for both single and multiple file uploads
+
+### 3. Chat System
+
+#### Connecting to Chat
+
+- The chat system automatically connects when you load the page
+- Your user ID is automatically assigned
+- Connection status is shown in the chat interface
+- Click on float button at the cornner of the page to toggle the chatting UI and file upload UI
+
+#### Sending Messages
+
+- Type your message in the chat input field
+- Press Enter or click the send button to send
+- Messages are displayed in real-time to all connected users
+- Messages displayed on chatbox include timestamp
+
+#### File Sharing in Chat
+
+- Click the attachment button to select a file
+- Selected files are uploaded and shared in the chat
+- Images are displayed directly in the chat
+- Other file types are shown as downloadable links
+
+#### Chat Interface Features
+
+- Adjustable chat box height
+- Real-time user count display
+- Responsive design for all screen sizes

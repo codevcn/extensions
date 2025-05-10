@@ -10,7 +10,6 @@ from configs import STORAGE_FOLDER, HOME_PAGE, NOT_FOUND_PAGE
 from utils import write_message_mode_w, clear_actions_log, get_client_ip
 from flask_socketio import SocketIO, emit, send, Namespace
 from datetime import datetime
-import base64
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
